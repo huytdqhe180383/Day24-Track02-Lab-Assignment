@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.venv/
+
+# Environment & secrets
+.env
+.env.*
+.vault_key
+
+# OS/Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Data (do not submit raw PII)
+data/raw/*
+!data/raw/.gitkeep
+
+# MLflow local artifacts (if created locally)
+mlruns/
+mlflow.db
+
+# Logs
+*.log
